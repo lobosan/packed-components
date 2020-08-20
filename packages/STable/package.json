@@ -1,11 +1,11 @@
 {
   "name": "@lobosan/s-table",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com:lobosan/packed-components.git"
   },
   "dependencies": {
-    "@lobosan/s-table-row": "^0.1.0"
+    "@lobosan/s-table-row": "^0.1.1"
   }
 }
