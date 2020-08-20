@@ -1,0 +1,11 @@
+{
+  "name": "@lobosan/j-table-row",
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:lobosan/packaged-components.git"
+  }
+}
