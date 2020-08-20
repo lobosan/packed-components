@@ -1,11 +1,8 @@
 {
-  "name": "@lobosan/j-table",
-  "version": "0.0.1",
+  "name": "@lobosan/s-table-row",
+  "version": "0.0.0",
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@lobosan/j-table-row": "^0.0.1"
   },
   "repository": {
     "type": "git",

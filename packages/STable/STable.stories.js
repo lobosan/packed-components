@@ -1,5 +1,5 @@
 import { storiesOf } from "@storybook/vue";
-import JTable from "./JTable";
+import STable from "./STable";
 
 var items = [
   ["Yair Lamb", "yair.lamb@email.com"],
@@ -11,11 +11,11 @@ var items = [
   ["Kamren Huffman", "kamren.huffman@email.com"]
 ];
 
-storiesOf("JTable", module)
+storiesOf("STable", module)
   .add("with 7 items", () => ({
-    components: { JTable },
+    components: { STable },
     template: `
-      <JTable
+      <STable
         :items="items"
       />
     `,
@@ -24,9 +24,9 @@ storiesOf("JTable", module)
     })
   }))
   .add("with 7 items + header", () => ({
-    components: { JTable },
+    components: { STable },
     template: `
-      <JTable
+      <STable
         :header="header"
         :items="items"
       />

@@ -5,14 +5,14 @@
         {{ label }}
       </th>
     </tr>
-    <JTableRow v-for="(values, index) in items" :key="index" :values="values" />
+    <STableRow v-for="(values, index) in items" :key="index" :values="values" />
   </table>
 </template>
 
 <script>
-import JTableRow from "@lobosan/j-table-row/JTableRow";
+import STableRow from "@lobosan/s-table-row/STableRow";
 export default {
-  name: "JTable",
+  name: "STable",
   props: {
     header: {
       type: Array
@@ -23,7 +23,7 @@ export default {
     }
   },
   components: {
-    JTableRow
+    STableRow
   }
 };
 </script>

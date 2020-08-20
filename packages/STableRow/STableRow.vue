@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "JTableRow",
+  name: "STableRow",
   props: {
     values: {
       type: Array,

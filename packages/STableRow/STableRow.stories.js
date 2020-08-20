@@ -1,10 +1,10 @@
 import { storiesOf } from "@storybook/vue";
-import JTableRow from "./JTableRow";
+import STableRow from "./STableRow";
 
-storiesOf("JTableRow", module).add("normal", () => ({
-  components: { JTableRow },
+storiesOf("STableRow", module).add("normal", () => ({
+  components: { STableRow },
   template: `
-      <JTableRow
+      <STableRow
         :values="values"
       />
     `,
