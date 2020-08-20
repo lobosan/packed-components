@@ -11,14 +11,28 @@ var items = [
   ["Kamren Huffman", "kamren.huffman@email.com"]
 ];
 
-storiesOf("STable", module).add("with 7 items", () => ({
-  components: { STable },
-  template: `
+storiesOf("STable", module)
+  .add("with 7 items", () => ({
+    components: { STable },
+    template: `
       <STable
         :items="items"
       />
     `,
-  data: () => ({
-    items
-  })
-}));
+    data: () => ({
+      items
+    })
+  }))
+  .add("with 7 items + header", () => ({
+    components: { STable },
+    template: `
+      <STable
+        :header="header"
+        :items="items"
+      />
+    `,
+    data: () => ({
+      header: ["Name", "Email"],
+      items
+    })
+  }));
