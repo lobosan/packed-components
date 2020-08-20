@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:lobosan/packaged-components.git"
+    "url": "ssh://git@github.com:lobosan/packed-components.git"
   }
 }
