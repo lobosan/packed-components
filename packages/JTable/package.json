@@ -1,14 +1,14 @@
 {
   "name": "@lobosan/j-table",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@lobosan/j-table-row": "^0.0.0"
+    "@lobosan/j-table-row": "^0.0.1"
   },
-  "repository" : {
-    "type" : "git",
+  "repository": {
+    "type": "git",
     "url": "ssh://git@github.com:lobosan/packaged-components.git"
   }
 }
